@@ -260,7 +260,7 @@ local Window = {}; do
 			local t = Services.TweenService:Create(self.UI.Dark, tInfo, {BackgroundTransparency = 1})
 			local t2 = Services.TweenService:Create(self.UI, tInfo, {Size = UDim2.new(0.114, 0, 0, 26)})
 			local t3 = Services.TweenService:Create(self.UI.Image, tInfo, {ImageTransparency = 0})
-			local t4 = Services.TweenService:Create(self.UI.UIStroke, tInfo, {Color = Color3.fromRGB(255, 255, 255)})
+			local t4 = Services.TweenService:Create(self.UI.UIStroke, tInfo, {Color = Color3.fromRGB(143, 23, 232)})
 			t:Play(); t2:Play(); t3:Play(); t4:Play()
 			self.UI.Title.Visible = true
 			self.Visible = true
@@ -276,7 +276,7 @@ local Window = {}; do
 			local t = Services.TweenService:Create(self.UI.Dark, tInfo, {BackgroundTransparency = 0.75})
 			local t2 = Services.TweenService:Create(self.UI, tInfo, {Size = UDim2.new(0, 26, 0, 26)})
 			local t3 = Services.TweenService:Create(self.UI.Image, tInfo, {ImageTransparency = 0.5})
-			local t4 = Services.TweenService:Create(self.UI.UIStroke, tInfo, {Color = Color3.fromRGB(255, 255, 255)})
+			local t4 = Services.TweenService:Create(self.UI.UIStroke, tInfo, {Color = Color3.fromRGB(143, 23, 232)})
 			t:Play(); t2:Play(); t3:Play(); t4:Play()
 			self.Visible = false
 			self.UI.Title.Visible = false
